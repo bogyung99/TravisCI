@@ -8,7 +8,7 @@ branches:
     - master
 
 before_install:
-  - chmode +x gradlew
+  - chmod +x gradlew
 
 before_cache:
   -'$HOME/.m2/repository'
