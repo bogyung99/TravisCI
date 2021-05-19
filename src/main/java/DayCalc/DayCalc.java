@@ -37,17 +37,7 @@ public class DayCalc {
         Boolean is31 = (month == 1) || (month == 3) || (month == 5) || (month == 7)
                 || (month == 8) || (month == 10) || (month == 12);
 
-        if (isLeapYear && month == 2) {
-            dayOfMonth = 29;
-        } else if (!isLeapYear && month == 2) {
-            dayOfMonth = 28;
-        } else if (is31) {
-            dayOfMonth = 31;
-        } else {
-            dayOfMonth = 30;
-        }
-
-        // dayOfMonth = 30;
+        dayOfMonth = 30;
 
         return dayOfMonth;
     }
