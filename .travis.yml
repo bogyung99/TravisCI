@@ -20,6 +20,7 @@ cache:
 
 script: "./gradlew clean build"
 
-email:
-recipients:
-  - bogung1207@naver.com
+notifications:
+  email:
+    recipients:
+      - bogung1207@naver.com
